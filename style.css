@@ -101,6 +101,7 @@ ul li{
     background-color:  #ff0000
     ;
     font-family: roboto1;
+    
 
     
 
@@ -207,4 +208,14 @@ input[type="text"]{
     padding: 0.3rem;
 }
 
+
+
+
+
+/*Effects*/
+
+
+.dboard ul li:hover{
+    color: red;
+}
 
