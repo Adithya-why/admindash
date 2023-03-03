@@ -98,7 +98,8 @@ ul li{
     grid-template-rows: 0.5fr 2fr;
     
 
-    background-color: #f8fafc;
+    background-color:  #ff0000
+    ;
     font-family: roboto1;
 
     
@@ -120,6 +121,8 @@ img[src="sr.svg"]{
 img[src="nt.svg"],img[src="pr.svg"]{
     align-self: center;
     justify-self: center;
+    width: 2rem;
+    height: 2rem;
 }
 
 
@@ -136,6 +139,10 @@ input[type="text"]{
 .r2{
     display: grid;
     grid-template-columns: 1fr 3fr 1fr 1fr 1fr;
+}
+
+.r2 .txt{
+    font-family:font2;
 }
 
 button{
@@ -165,6 +172,13 @@ input[type="text"]{
     display: grid;
     grid-template-columns: 4fr 1fr;
     grid-template-rows: 1fr 1fr;
+
+
+    background-color: black;
+    color:white;
+    font-family: roboto1;
+
+    padding-left: 1rem;
 }
 
 .proj{
@@ -174,6 +188,15 @@ input[type="text"]{
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+}
+
+
+.card{
+    background-color: #ff0000;
+    color: black;
+    border-radius: 15px;
+    margin: 1.5rem;
+    padding-inline-start: 0.3rem;
 }
 
 
