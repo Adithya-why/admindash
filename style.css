@@ -8,6 +8,11 @@
     src: url(BeronRegular-0WARR.ttf);
 }
 
+@font-face {
+    font-family: roboto1;
+    src: url(Roboto-Regular.ttf);
+}
+
 
 
 
@@ -90,13 +95,21 @@ ul li{
 
 .header{
     display: grid;
-    grid-template-rows: ifr 2fr;
+    grid-template-rows: 0.5fr 2fr;
+    
+
+    background-color: #f8fafc;
+    font-family: roboto1;
+
+    
 
 }
 
 .r1{
     display: grid;
-    grid-template-columns: 1fr 5fr 1fr 1fr;
+    grid-template-columns: 1fr 5fr 0.5fr 0.5fr;
+
+    padding-top: 1rem;
 }
 
 img[src="sr.svg"]{
@@ -106,7 +119,13 @@ img[src="sr.svg"]{
 
 img[src="nt.svg"],img[src="pr.svg"]{
     align-self: center;
+    justify-self: center;
+}
+
+
+.r2 img[src="pr.svg"]{
     justify-self: end;
+    padding-right: 1.5rem;
 }
 
 input[type="text"]{
@@ -125,11 +144,18 @@ button{
     align-self: center;
     justify-self: center;
     border-radius: 15px;
+    background-color: black;
+    color: white;
 }
 
-.r2 img[src="pr.svg"]{
-    align-self: center;
-    justify-self: start;
+
+
+
+input[type="text"]{
+    background-color: black;
+    color: white;
+    font-family: roboto1;
+    font-size: 2rem;
 }
 
 
